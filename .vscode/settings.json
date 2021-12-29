@@ -1,0 +1,25 @@
+{
+    "prettier.configPath": "config/.prettierrc",
+    "prettier.ignorePath": "config/.prettierignore",
+    "editor.formatOnSave": true,
+    "eslint.autoFixOnSave": true,
+    "javascript.validate.enable": false,
+    "eslint.options": {
+      "configFile": "config/.eslintrc.js",
+      "ignorePath": "config/.eslintignore",
+      "extensinons": [".js", ".jsx"]
+    },
+    "eslint.validate": ["javascript", "javascriptreact", { "language": "typescript", "autoFix": true }],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
